@@ -192,25 +192,25 @@ body{
 .header .right_box .nav_util .item:nth-child(1) a{
     width: 30px;
     height: 30px;
-    background: url(/C:\Users\User\Desktop\work\osulloc/image/magnifying-glass-solid-white.png) no-repeat;
+    background: url(/work/osulloc/image/magnifying-glass-solid-white.png) no-repeat;
     background-size: 100%;
 }
 .header:hover .right_box .nav_util .item:nth-child(1) a{
     width: 30px;
     height: 30px;
-    background: url(/osulloc/image/magnifying-glass-solid-black.png) no-repeat;
+    background: url(/work/osulloc/image/magnifying-glass-solid-black.png) no-repeat;
     background-size: 100%;
 }
 .header .right_box .nav_util .item:nth-child(2) a{
     width: 30px;
     height: 30px;
-    background: url(/osulloc/image/cart-shopping-solid-white.png)no-repeat;
+    background: url(/work/osulloc/image/cart-shopping-solid-white.png)no-repeat;
     background-size: 100%;
 }
 .header:hover .right_box .nav_util .item:nth-child(2) a{
     width: 30px;
     height: 30px;
-    background: url(/osulloc/image/cart-shopping-solid-black.png)no-repeat;
+    background: url(/work/osulloc/image/cart-shopping-solid-black.png)no-repeat;
     background-size: 100%;
 }
 .header .right_box .nav_util .item:nth-child(2) span{
@@ -245,13 +245,13 @@ body{
 .header .right_box .nav_util .icon:nth-child(3) a{
     width: 30px;
     height: 30px;
-    background: url(/osulloc/image/ellipsis-vertical-solid-white.png)no-repeat;
+    background: url(/work/osulloc/image/ellipsis-vertical-solid-white.png)no-repeat;
     background-size: 25%;
 }
 .header:hover .right_box .nav_util .icon:nth-child(3) a{
     width: 30px;
     height: 30px;
-    background: url(/osulloc/image/ellipsis-vertical-solid.png)no-repeat;
+    background: url(/work/osulloc/image/ellipsis-vertical-solid.png)no-repeat;
     background-size: 25%;
 }
 .header .right_box .icon .drop_list{
@@ -357,7 +357,7 @@ body{
     width: 15px;
     height: 15px;
     z-index: 6;
-    background: url(/osulloc/image/caret-down-solid-white.png) no-repeat center/10px 20px;
+    background: url(/work/osulloc/image/caret-down-solid-white.png) no-repeat center/10px 20px;
     margin-left: 5px;
 }
 .header:hover .right_box .nav_drop .drop .icon_drop{
@@ -365,7 +365,7 @@ body{
     width: 15px;
     height: 15px;
     z-index: 6;
-    background: url(/osulloc/image/caret-down-solid-black.png) no-repeat center/10px 20px;
+    background: url(/work/osulloc/image/caret-down-solid-black.png) no-repeat center/10px 20px;
     margin-left: 5px;
 }
 
@@ -541,4 +541,11 @@ body{
 }
 .main_prd .prd_tab_con.on .swiper_wrapper .swiper_slide{
     
+}
+.footer{
+    width: 100%;
+    height: 500px;
+}
+.footer .wrap{
+    background: url(/work/osulloc/image/20230331181346461UJ.png);
 }
