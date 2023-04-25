@@ -43,3 +43,37 @@ setInterval(function(){
     $('.section .item').eq(start -1).css('top','-50px');
     $('.section .item').eq(start).css('top','0');
 },4000)
+
+
+$('.main_sec .swiper_slide').eq(0).css('left','0');
+$('.main_sec .swiper_slide').eq(1).css('left','250px');
+$('.main_sec .swiper_slide').eq(2).css('left','500px');
+$('.main_sec .swiper_slide').eq(3).css('left','750px');
+$('.main_sec .swiper_slide').eq(4).css('left','1000px');
+$('.main_sec .swiper_slide').eq(5).css('left','1250px');
+$('.main_sec .swiper_slide').eq(6).css('left','1500px');
+
+var str= 0;
+setInterval(function(){
+    if(str == 1){
+        str = 0;
+    }else{
+        str++;
+    }
+    
+    
+    // $('.main_sec .swiper_slide').eq(str-5).css('left','-1250px');
+    // $('.main_sec .swiper_slide').eq(str-4).css('left','-1000px');
+    // $('.main_sec .swiper_slide').eq(str-3).css('left','-750px');
+    // $('.main_sec .swiper_slide').eq(str-2).css('left','-500px');
+    $('.main_sec .swiper_slide').eq(str-1).css('left','-250px');
+    $('.main_sec .swiper_slide').eq(str).css('left','0');
+    $('.main_sec .swiper_slide').eq(str+1).css('left','250px');
+    $('.main_sec .swiper_slide').eq(str+2).css('left','500px');
+    $('.main_sec .swiper_slide').eq(str+3).css('left','750px');
+    $('.main_sec .swiper_slide').eq(str+4).css('left','1000px');
+    $('.main_sec .swiper_slide').eq(str+5).css('left','1250px');    
+},5000)
+
+
+
